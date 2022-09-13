@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.smithyvl</groupId>
+    <artifactId>java-interview</artifactId>
+    <version>2022.3</version>
+    <packaging>pom</packaging>
+    <name>Java Developer Interview</name>
+    <description>Preparing for java back-end development interview</description>
+    <url>https://github.com/SmithyVL/JavaDeveloperInterview</url>
+
+    <properties>
+        <!-- Pluggable Dependency Versions -->
+        <kotlin.version>1.7.10</kotlin.version>
+
+        <!-- Compiler properties -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
+        <java.version>18</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+    <!-- List the core committers -->
+    <developers>
+        <developer>
+            <id>SmithyVL</id>
+            <name>Vladislav Kuznetsov</name>
+            <timezone>UTC+4</timezone>
+            <properties>
+                <vk-url>https://vk.com/vladislav_kuznetsov</vk-url>
+            </properties>
+        </developer>
+    </developers>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.jetbrains.kotlin</groupId>
+                    <artifactId>kotlin-maven-plugin</artifactId>
+                    <version>${kotlin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>compile</id>
+                            <goals>
+                                <goal>compile</goal>
+                            </goals>
+                            <configuration>
+                                <sourceDirs>
+                                    <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
+                                </sourceDirs>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <modules>
+        <module>oop</module>
+        <module>jvm</module>
+        <module>core</module>
+    </modules>
+</project>
