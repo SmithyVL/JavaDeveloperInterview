@@ -4,13 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+        <artifactId>java-interview-oop-question-2</artifactId>
         <groupId>io.github.smithyvl</groupId>
-        <artifactId>java-interview</artifactId>
         <version>2022.3</version>
     </parent>
 
-    <artifactId>java-interview-core</artifactId>
-    <name>Core Java/Kotlin</name>
-    <description>Особенности синтаксиса языка</description>
-    <packaging>pom</packaging>
+    <artifactId>java-interview-oop-question-2-sample-java</artifactId>
+    <name>ООП: Что такое "Инкапсуляция"? - пример на Java</name>
+    <description>Пример на Java для принципа ООП - "Инкапсуляция"</description>
 </project>

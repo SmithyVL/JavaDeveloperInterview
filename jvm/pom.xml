@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>java-interview-jvm</artifactId>
-    <name>JVM</name>
+    <name>Java Virtual Machine (JVM)</name>
     <description>Виртуальная машина Java</description>
     <packaging>pom</packaging>
 </project>

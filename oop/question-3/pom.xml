@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+        <artifactId>java-interview-oop</artifactId>
         <groupId>io.github.smithyvl</groupId>
-        <artifactId>java-interview</artifactId>
         <version>2022.3</version>
     </parent>
 
-    <artifactId>java-interview-core</artifactId>
-    <name>Core Java/Kotlin</name>
-    <description>Особенности синтаксиса языка</description>
+    <artifactId>java-interview-oop-question-3</artifactId>
+    <name>ООП: Что такое "Наследование"?</name>
+    <description>Определение и описание принципа ООП - "Наследование"</description>
     <packaging>pom</packaging>
 </project>

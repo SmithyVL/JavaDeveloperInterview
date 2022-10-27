@@ -10,7 +10,21 @@
     </parent>
 
     <artifactId>java-interview-oop</artifactId>
-    <name>OOP</name>
-    <description>Объектно-ориентированное программирование</description>
+    <name>Объектно-ориентированное программирование (ООП)</name>
+    <description>Вопросы по группе тем ООП</description>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>question-1</module>
+        <module>question-2</module>
+        <module>question-3</module>
+        <module>question-4</module>
+        <module>question-5</module>
+        <module>question-6</module>
+        <module>question-7</module>
+        <module>question-8</module>
+        <module>question-9</module>
+        <module>question-10</module>
+        <module>question-11</module>
+    </modules>
 </project>
